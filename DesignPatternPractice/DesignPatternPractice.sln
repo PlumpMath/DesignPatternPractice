@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternPractice.Common", "DesignPatternPractice\DesignPatternPractice.Common.csproj", "{D908184B-BE27-4231-A064-DF8819E99B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternPractice.Test", "DesignPatternPractice.Test\DesignPatternPractice.Test.csproj", "{3A04D93D-66EE-4EFE-8045-6034FF889A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D908184B-BE27-4231-A064-DF8819E99B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D908184B-BE27-4231-A064-DF8819E99B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D908184B-BE27-4231-A064-DF8819E99B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D908184B-BE27-4231-A064-DF8819E99B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A04D93D-66EE-4EFE-8045-6034FF889A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A04D93D-66EE-4EFE-8045-6034FF889A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A04D93D-66EE-4EFE-8045-6034FF889A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A04D93D-66EE-4EFE-8045-6034FF889A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
