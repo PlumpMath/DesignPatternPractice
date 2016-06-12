@@ -41,8 +41,8 @@
   <ItemGroup>
     <Compile Include="Command\Example\BakeChickenWingCommand.cs" />
     <Compile Include="Command\Example\BakeMuttonCommand.cs" />
-    <Compile Include="Command\Example\Command.cs" />
     <Compile Include="Command\Example\Barbecuer.cs" />
+    <Compile Include="Command\Example\Command.cs" />
     <Compile Include="Command\Example\ConcreteCommand.cs" />
     <Compile Include="Command\Example\Invoker.cs" />
     <Compile Include="Command\Example\Receiver.cs" />
