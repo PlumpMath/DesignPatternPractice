@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapater\Adaptee.cs" />
+    <Compile Include="Adapater\ITarget.cs" />
+    <Compile Include="Adapater\MyAdapter.cs" />
     <Compile Include="Command\Example\BakeChickenWingCommand.cs" />
     <Compile Include="Command\Example\BakeMuttonCommand.cs" />
     <Compile Include="Command\Example\Barbecuer.cs" />
