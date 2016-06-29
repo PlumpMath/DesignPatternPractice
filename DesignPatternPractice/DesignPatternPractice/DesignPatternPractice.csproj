@@ -39,6 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractProductA.cs" />
+    <Compile Include="AbstractFactory\AbstractProductB.cs" />
+    <Compile Include="AbstractFactory\Client.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryA.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryB.cs" />
+    <Compile Include="AbstractFactory\IAbstractFactory.cs" />
+    <Compile Include="AbstractFactory\ProductA1.cs" />
+    <Compile Include="AbstractFactory\ProductA2.cs" />
+    <Compile Include="AbstractFactory\ProductB2.cs" />
+    <Compile Include="AbstractFactory\ProductB1.cs" />
     <Compile Include="Adapater\Adaptee.cs" />
     <Compile Include="Adapater\ITarget.cs" />
     <Compile Include="Adapater\MyAdapter.cs" />
@@ -63,6 +73,7 @@
     <Compile Include="Singleton\FullLazySingleton.cs" />
     <Compile Include="Singleton\WithoutLockSingleton.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
