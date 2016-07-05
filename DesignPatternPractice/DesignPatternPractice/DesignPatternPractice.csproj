@@ -60,6 +60,9 @@
     <Compile Include="Command\Example\Invoker.cs" />
     <Compile Include="Command\Example\Receiver.cs" />
     <Compile Include="Command\Example\Waiter.cs" />
+    <Compile Include="Composite\Component.cs" />
+    <Compile Include="Composite\Composite.cs" />
+    <Compile Include="Composite\Leaf.cs" />
     <Compile Include="Factory\Calculator.cs" />
     <Compile Include="Factory\CalculatorFactory.cs" />
     <Compile Include="Factory\OperationAdd.cs" />
