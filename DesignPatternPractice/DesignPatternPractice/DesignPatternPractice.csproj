@@ -79,6 +79,18 @@
     <Compile Include="Singleton\SimpleSingleton.cs" />
     <Compile Include="Singleton\FullLazySingleton.cs" />
     <Compile Include="Singleton\WithoutLockSingleton.cs" />
+    <Compile Include="State\ConcreteStateA.cs" />
+    <Compile Include="State\ConcreteStateB.cs" />
+    <Compile Include="State\Context.cs" />
+    <Compile Include="State\example\AfternoonState.cs" />
+    <Compile Include="State\example\EveningState.cs" />
+    <Compile Include="State\example\ForenoonState.cs" />
+    <Compile Include="State\example\NoonState.cs" />
+    <Compile Include="State\example\RestState.cs" />
+    <Compile Include="State\example\SleepState.cs" />
+    <Compile Include="State\example\State2.cs" />
+    <Compile Include="State\State.cs" />
+    <Compile Include="State\example\Work.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
