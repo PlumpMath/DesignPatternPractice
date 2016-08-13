@@ -69,6 +69,14 @@
     <Compile Include="Factory\OperationDiv.cs" />
     <Compile Include="Factory\OperationMul.cs" />
     <Compile Include="Factory\OperationSub.cs" />
+    <Compile Include="Observer\Boss.cs" />
+    <Compile Include="Observer\ConcreteObserver.cs" />
+    <Compile Include="Observer\ConcreteSubject.cs" />
+    <Compile Include="Observer\ISubject.cs" />
+    <Compile Include="Observer\NBAObserver.cs" />
+    <Compile Include="Observer\Observer.cs" />
+    <Compile Include="Observer\StockObserver.cs" />
+    <Compile Include="Observer\Subject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\Pursuit.cs" />
     <Compile Include="Proxy\IGiveGift.cs" />
@@ -91,6 +99,13 @@
     <Compile Include="State\example\State2.cs" />
     <Compile Include="State\State.cs" />
     <Compile Include="State\example\Work.cs" />
+    <Compile Include="Visitor\ConcreteElementA.cs" />
+    <Compile Include="Visitor\ConcreteElementB.cs" />
+    <Compile Include="Visitor\ConcreteVisitor2.cs" />
+    <Compile Include="Visitor\ConcreteVisitor1.cs" />
+    <Compile Include="Visitor\Element.cs" />
+    <Compile Include="Visitor\Visitor.cs" />
+    <Compile Include="Visitor\VisitorObjectStructure.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
